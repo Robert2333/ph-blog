@@ -1,0 +1,28 @@
+/* 菜单颜色 */
+.menu-item {
+    color: #ccc;
+    font-size: 16px; /* 悬停时字体放大到20像素 */
+  }
+  .menu-item:hover {
+    color: white;
+    cursor: pointer;
+    
+  }
+  .menu-item:hover span{
+    color: white;
+    cursor: pointer;
+    
+  }
+  .icon{
+    width:100%;
+
+  }
+
+  @media (max-width: 993px) {
+    .icon{
+      display: none;
+    }
+    .icon{
+        display: none;
+      }
+  }
